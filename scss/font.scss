@@ -32,3 +32,19 @@
     font-family: 'TrajanPro3-Regular';
     src: url('../fonts/TrajanPro3-Regular.otf') format('opentype');
 }
+@font-face {
+    font-family: "fl-icons";
+    font-display: block;
+    src: url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.16.2);
+    src: url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.16.2)
+        format("embedded-opentype"),
+      url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.16.2)
+        format("woff2"),
+      url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.16.2)
+        format("truetype"),
+      url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.16.2)
+        format("woff"),
+      url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.16.2#fl-icons)
+        format("svg");
+  }
+  
