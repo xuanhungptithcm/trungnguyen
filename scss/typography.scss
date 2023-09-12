@@ -1,0 +1,65 @@
+@import 'fucntion.scss';
+
+.font-normal{
+    font-weight: 400;
+}
+.font-regular{
+    font-weight: 500;
+}
+.font-bold{
+    font-weight: 700;
+}
+.font-italic{
+    font-style: italic;
+}
+.font-Archivo_SemiExpanded-Regular {
+    font-family: 'Archivo_SemiExpanded-Regular', serif;
+}
+.font-Montserrat-Bold {
+    font-family: 'Montserrat-Bold', serif;
+}
+.font-times {
+    font-family: 'times', serif;
+}
+.font-times-bold {
+    font-family: 'times-bold', serif;
+} 
+.font-times-bold-italic {
+    font-family: 'times-bold-italic', serif;
+}
+.font-times-italic {
+    font-family: 'times-italic', serif;
+}
+.font-TrajanPro3-Regular {
+    font-family: 'TrajanPro3-Regular', serif;
+}
+.heading-40{
+    font-size: betterClamp(7, 30, 360, 1400);
+    line-height: betterClamp(12, 40, 360, 1400);
+    word-spacing: betterClamp(0.5, 3, 660, 1400);
+    letter-spacing: betterClamp(0.5, 4, 660, 1400);
+}
+.heading-21{
+    font-size: betterClamp(4, pt-to-px(21.5), 360, 1400);
+    line-height: betterClamp(6, pt-to-px(24.5), 360, 1400);
+    letter-spacing: -0.3px;
+}
+.text-dark {
+    color: var(--text-dark)
+}
+.text-justify{
+    text-align: justify;
+}
+.font-roman {
+    font-size: betterClamp(12, 100, 360, 1400);
+    line-height: betterClamp(60, 80, 360, 1400);
+    margin: 0;
+    position: relative;
+    left: -7px;
+}
+.word-spacing-5{
+    word-spacing:  betterClamp(1, 5, 360, 1400);
+}
+.letter-spacing-6{
+    letter-spacing: betterClamp(1.2, 6, 360, 1400);
+}

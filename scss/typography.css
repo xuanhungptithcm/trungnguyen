@@ -1,0 +1,80 @@
+.font-normal {
+  font-weight: 400;
+}
+
+.font-regular {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-Archivo_SemiExpanded-Regular {
+  font-family: "Archivo_SemiExpanded-Regular", serif;
+}
+
+.font-Montserrat-Bold {
+  font-family: "Montserrat-Bold", serif;
+}
+
+.font-times {
+  font-family: "times", serif;
+}
+
+.font-times-bold {
+  font-family: "times-bold", serif;
+}
+
+.font-times-bold-italic {
+  font-family: "times-bold-italic", serif;
+}
+
+.font-times-italic {
+  font-family: "times-italic", serif;
+}
+
+.font-TrajanPro3-Regular {
+  font-family: "TrajanPro3-Regular", serif;
+}
+
+.heading-40 {
+  font-size: clamp(0.4375rem, -0.0600961538rem + 2.2115384615vw, 1.875rem);
+  line-height: clamp(0.75rem, 0.1442307692rem + 2.6923076923vw, 2.5rem);
+  word-spacing: clamp(0.03125rem, -0.1081081081rem + 0.3378378378vw, 0.1875rem);
+  letter-spacing: clamp(0.03125rem, -0.1638513514rem + 0.472972973vw, 0.25rem);
+}
+
+.heading-21 {
+  font-size: clamp(0.25rem, -0.101981352rem + 1.5643615644vw, 1.2668350168rem);
+  line-height: clamp(0.375rem, 0.0050990676rem + 1.644004144vw, 1.4436026936rem);
+  letter-spacing: -0.3px;
+}
+
+.text-dark {
+  color: var(--text-dark);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-roman {
+  font-size: clamp(0.75rem, -1.1538461538rem + 8.4615384615vw, 6.25rem);
+  line-height: clamp(3.75rem, 3.3173076923rem + 1.9230769231vw, 5rem);
+  margin: 0;
+  position: relative;
+  left: -7px;
+}
+
+.word-spacing-5 {
+  word-spacing: clamp(0.0625rem, -0.0240384615rem + 0.3846153846vw, 0.3125rem);
+}
+
+.letter-spacing-6 {
+  letter-spacing: clamp(0.075rem, -0.0288461538rem + 0.4615384615vw, 0.375rem);
+}

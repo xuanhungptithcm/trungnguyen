@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Archivo_SemiExpanded-Regular";
+  src: url("../fonts/Archivo_SemiExpanded-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times";
+  src: url("../fonts/times.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times-bold";
+  src: url("../fonts/timesbd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times-bold-italic";
+  src: url("../fonts/timesbi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times-italic";
+  src: url("../fonts/timesi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TrajanPro3-Regular";
+  src: url("../fonts/TrajanPro3-Regular.otf") format("opentype");
+}
+:root {
+  --text-dark: #000;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-regular {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-times {
+  font-family: "times", serif;
+}
+
+.font-times-bold {
+  font-family: "times-bold", serif;
+}
+
+.font-times-bold-italic {
+  font-family: "times-bold-italic", serif;
+}
+
+.font-TrajanPro3-Regular {
+  font-family: "TrajanPro3-Regular", serif;
+}
+
+.heading-40 {
+  font-size: clamp(0.4375rem, -0.0600961538rem + 2.2115384615vw, 1.875rem);
+  line-height: clamp(0.75rem, 0.1442307692rem + 2.6923076923vw, 2.5rem);
+  word-spacing: clamp(0.03125rem, -0.1081081081rem + 0.3378378378vw, 0.1875rem);
+  letter-spacing: clamp(0.03125rem, -0.1638513514rem + 0.472972973vw, 0.25rem);
+}
+
+.heading-21 {
+  font-size: clamp(0.25rem, -0.101981352rem + 1.5643615644vw, 1.2668350168rem);
+  line-height: clamp(0.375rem, 0.0050990676rem + 1.644004144vw, 1.4436026936rem);
+  letter-spacing: -0.3px;
+}
+
+.text-dark {
+  color: var(--text-dark);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-roman {
+  font-size: clamp(0.75rem, -1.1538461538rem + 8.4615384615vw, 6.25rem);
+  line-height: clamp(3.75rem, 3.3173076923rem + 1.9230769231vw, 5rem);
+  margin: 0;
+  position: relative;
+  left: -7px;
+}
+
+.word-spacing-5 {
+  word-spacing: clamp(0.0625rem, -0.0240384615rem + 0.3846153846vw, 0.3125rem);
+}
+
+.letter-spacing-6 {
+  letter-spacing: clamp(0.075rem, -0.0288461538rem + 0.4615384615vw, 0.375rem);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-nowrap .item {
+  flex: 1 1 auto;
+}
+
+.border-right-item .item:not(:last-child) {
+  border-right: clamp(0.0625rem, 0.0192307692rem + 0.1923076923vw, 0.1875rem) dashed #dedede;
+}
+
+.border-right {
+  border-right: clamp(0.0625rem, 0.0192307692rem + 0.1923076923vw, 0.1875rem) dashed #dedede;
+}
+
+.border-bottom {
+  border-bottom: clamp(0.0625rem, 0.0192307692rem + 0.1923076923vw, 0.1875rem) dashed #dedede;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 auto;
+}
+
+.flex-nowrap .item.flex-2 {
+  flex-grow: 2;
+}
+
+.flex-none {
+  flex: none !important;
+}
+
+.align-flex-start {
+  align-items: flex-start;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.item-stretch {
+  align-items: stretch;
+}
+
+.container-new {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  padding: 0;
+  padding-left: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
+  padding-right: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.box-coffee-roman .item:first-child {
+  padding: 0 1.5rem;
+  padding-left: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  padding-right: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+}
+.box-coffee-roman .item:not(:first-of-type) {
+  padding: 0 1.5rem;
+  padding-left: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  padding-right: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  margin: 1.5rem 0;
+  margin-top: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  margin-bottom: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+}
+
+.icon-svg {
+  max-width: 279.8488px;
+}
