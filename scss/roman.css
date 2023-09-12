@@ -24,3 +24,107 @@
   bottom: 0;
   width: clamp(2.5rem, -0.9615384615rem + 15.3846153846vw, 12.5rem);
 }
+
+.flex-nowrap .item img {
+  width: clamp(6.25rem, 3.0048076923rem + 14.4230769231vw, 15.625rem);
+}
+
+.title-roman {
+  font-size: clamp(0.75rem, 0.1937645688rem + 2.4721574722vw, 2.3569023569rem);
+  line-height: clamp(0.75rem, 0.1937645688rem + 2.4721574722vw, 2.3569023569rem);
+  word-spacing: clamp(0.03125rem, -0.1081081081rem + 0.3378378378vw, 0.1875rem);
+  letter-spacing: clamp(0.03125rem, -0.1638513514rem + 0.472972973vw, 0.25rem);
+  margin-bottom: clamp(0.625rem, 0.4086538462rem + 0.9615384615vw, 1.25rem);
+}
+
+.sub-title-roman {
+  font-size: clamp(0.5rem, 0.1223776224rem + 1.6783216783vw, 1.5909090909rem);
+  line-height: clamp(0.5rem, 0.1223776224rem + 1.6783216783vw, 1.5909090909rem);
+  word-spacing: clamp(0.0625rem, 0.0013297872rem + 0.2127659574vw, 0.1875rem);
+  letter-spacing: clamp(0.0625rem, -0.0292553191rem + 0.3191489362vw, 0.25rem);
+  margin: 0;
+}
+
+.divider {
+  height: clamp(0.03125rem, 0.0114729021rem + 0.0878982129vw, 0.0883838384rem);
+  display: block;
+  margin: clamp(1rem, 0.4807692308rem + 2.3076923077vw, 2.5rem) 0;
+  width: 60%;
+}
+
+.box-coffee-roman-cam-hung .item {
+  padding: 0 1.5rem;
+  padding-left: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  padding-right: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  margin: 1.5rem 0;
+  margin-top: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  margin-bottom: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+}
+
+.image-cafe-van-minh-1 {
+  margin-right: auto;
+}
+
+.image-cafe-van-minh-2 {
+  width: 80%;
+  margin-left: auto;
+}
+
+.image-cafe-van-minh-1 img {
+  max-width: 100%;
+}
+
+.flex-basic-30 {
+  flex-basis: 30%;
+}
+
+.flex-basic-70 {
+  flex-basis: 70%;
+}
+
+.column-gap-30 {
+  column-gap: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
+}
+
+.color-content-roman {
+  column-gap: 2rem;
+}
+.color-content-roman > p {
+  font-size: clamp(0.5rem, 0.2243589744rem + 1.2250712251vw, 1.2962962963rem);
+  line-height: clamp(0.5rem, 0.1427738928rem + 1.5876715877vw, 1.531986532rem);
+  flex: 1;
+  color: #6D6E71;
+  margin: 0;
+}
+.color-content-roman > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: clamp(5.625rem, 4.3269230769rem + 5.7692307692vw, 9.375rem);
+}
+.color-content-roman > div a span {
+  font-size: clamp(0.5rem, 0.3269230769rem + 0.7692307692vw, 1rem);
+  letter-spacing: clamp(0.125rem, 0.1033653846rem + 0.0961538462vw, 0.1875rem);
+  line-height: clamp(0.0625rem, 0.0560096154rem + 0.0288461538vw, 0.08125rem);
+}
+.color-content-roman > div a {
+  min-height: clamp(0.9427609428rem, 0.5552318052rem + 1.7223517224vw, 2.0622895623rem);
+  padding-left: clamp(0.625rem, 0.4951923077rem + 0.5769230769vw, 1rem);
+  padding-right: clamp(0.625rem, 0.4951923077rem + 0.5769230769vw, 1rem);
+}
+.color-content-roman > div a i {
+  width: clamp(0.625rem, 0.5168269231rem + 0.4807692308vw, 0.9375rem);
+  height: clamp(0.625rem, 0.5168269231rem + 0.4807692308vw, 0.9375rem);
+  font-size: clamp(0.625rem, 0.5168269231rem + 0.4807692308vw, 0.9375rem);
+}
+
+.divider-content-roman {
+  height: clamp(0.03125rem, 0.0114729021rem + 0.0878982129vw, 0.0883838384rem);
+  display: block;
+  margin: clamp(0.875rem, 0.5721153846rem + 1.3461538462vw, 1.75rem) 0;
+  width: 60%;
+}
+
+.pb-52-to-20 {
+  padding-bottom: clamp(1.25rem, 0.5576923077rem + 3.0769230769vw, 3.25rem);
+}
