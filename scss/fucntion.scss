@@ -1,0 +1,19 @@
+@function betterClamp($minSize, $maxSize, $minWidth: 360, $maxWidth: 1400) {
+    // do calculations
+    $slope: calc(($maxSize - $minSize) / ($maxWidth - $minWidth));
+    $yAxisIntersection: -$minWidth * $slope +$minSize;
+
+    // Convert the calculated preferred font-size value to rem
+    $preferredValue: calc(#{$yAxisIntersection / 16}rem + #{$slope * 100vw});
+
+    // Convert input sizes to rem
+    $minSize: calc($minSize / 16) * 1rem;
+    $maxSize: calc($maxSize / 16) * 1rem;
+
+    // Return the clamped font-size value
+    @return clamp($minSize, $preferredValue, $maxSize);
+}
+
+@function pt-to-px($size-in-pt) {
+    @return calc(calc($size-in-pt * 96) / 72 * 1400 / 1980);
+}

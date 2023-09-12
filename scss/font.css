@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Archivo_SemiExpanded-Regular";
+  src: url("../fonts/Archivo_SemiExpanded-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times";
+  src: url("../fonts/times.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times-bold";
+  src: url("../fonts/timesbd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times-bold-italic";
+  src: url("../fonts/timesbi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "times-italic";
+  src: url("../fonts/timesi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TrajanPro3-Regular";
+  src: url("../fonts/TrajanPro3-Regular.otf") format("opentype");
+}

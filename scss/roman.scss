@@ -1,0 +1,20 @@
+@import 'fucntion.scss';
+
+.box-coffee-roman {
+    .item:first-child {
+        padding: 0 1.5rem;
+        padding-left: betterClamp(8, 24);
+        padding-right: betterClamp(8, 24);
+    }
+    .item:not(:first-of-type){
+        padding: 0 1.5rem;
+        padding-left: betterClamp(8, 24);
+        padding-right: betterClamp(8, 24);
+        margin: 1.5rem 0;
+        margin-top: betterClamp(8, 24);
+        margin-bottom: betterClamp(8, 24);
+    }
+}
+.icon-svg {
+    max-width: 279.8488px;
+}
