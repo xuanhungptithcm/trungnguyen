@@ -16,5 +16,13 @@
     }
 }
 .icon-svg {
-    max-width: 279.8488px;
+    width: 100%;
+    max-width:200px;
+}
+.icon-roma-container {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: betterClamp(40, 200);
 }

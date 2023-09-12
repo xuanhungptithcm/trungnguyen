@@ -1,57 +1,72 @@
 @import 'fucntion.scss';
 
-.flex{
+.flex {
     display: flex;
 }
+
 .flex-column {
     display: flex;
     flex-direction: column;
 }
-.flex-nowrap{
+
+.flex-nowrap {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
 }
+
 .space-between {
     justify-content: space-between;
 }
+
 .flex-nowrap .item {
     flex: 1 1 auto;
 }
-.border-right-item .item:not(:last-child){
+
+.border-right-item .item:not(:last-child) {
     border-right: betterClamp(1, 3) dashed #dedede;
 }
 
 .border-right {
     border-right: betterClamp(1, 3) dashed #dedede;
 }
+
 .border-bottom {
     border-bottom: betterClamp(1, 3) dashed #dedede;
 }
-.w-20{
+
+.w-20 {
     width: 20%;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
-.flex-1{
+
+.flex-1 {
     flex: 1 1 auto;
 }
+
 .flex-nowrap .item.flex-2 {
     flex-grow: 2;
 }
-.flex-none{
-    flex: none!important
+
+.flex-none {
+    flex: none !important
 }
-.align-flex-start{
+
+.align-flex-start {
     align-items: flex-start;
 }
-.item-center{
+
+.item-center {
     align-items: center;
 }
-.item-stretch{
+
+.item-stretch {
     align-items: stretch;
 }
+
 .container-new {
     margin: 0 auto;
     max-width: 1400px;
@@ -60,9 +75,30 @@
     padding-left: betterClamp(10, 30);
     padding-right: betterClamp(10, 30);
 }
+
+.col,
+.columns,
+.gallery-item {
+    padding: 0 15px 30px;
+    padding-left: betterClamp(8, 15) !important;
+    padding-right: betterClamp(8, 15) !important;
+    padding-bottom: betterClamp(15, 30) !important;
+}
+
 .mb-1 {
     margin-bottom: 0.5rem;
 }
+
 .m-0 {
     margin: 0;
+}
+
+.mb-1\/2 {
+    margin-bottom: 0.25rem;
+}
+.mb-3{
+    margin-bottom:betterClamp(7, 40)!important;
+}
+.bg-fill.not-cover{
+    background-size: auto!important;
 }

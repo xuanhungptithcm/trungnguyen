@@ -26,6 +26,12 @@
   font-family: "TrajanPro3-Regular";
   src: url("../fonts/TrajanPro3-Regular.otf") format("opentype");
 }
+@font-face {
+  font-family: "fl-icons";
+  font-display: block;
+  src: url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.16.2);
+  src: url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.16.2) format("embedded-opentype"), url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.16.2) format("woff2"), url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.16.2) format("truetype"), url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.16.2) format("woff"), url(https://trungnguyen.alodiaoctaynguyen.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.16.2#fl-icons) format("svg");
+}
 :root {
   --text-dark: #000;
 }
@@ -46,6 +52,14 @@
   font-style: italic;
 }
 
+.font-Archivo_SemiExpanded-Regular {
+  font-family: "Archivo_SemiExpanded-Regular", serif;
+}
+
+.font-Montserrat-Bold {
+  font-family: "Montserrat-Bold", serif;
+}
+
 .font-times {
   font-family: "times", serif;
 }
@@ -58,6 +72,10 @@
   font-family: "times-bold-italic", serif;
 }
 
+.font-times-italic {
+  font-family: "times-italic", serif;
+}
+
 .font-TrajanPro3-Regular {
   font-family: "TrajanPro3-Regular", serif;
 }
@@ -67,6 +85,7 @@
   line-height: clamp(0.75rem, 0.1442307692rem + 2.6923076923vw, 2.5rem);
   word-spacing: clamp(0.03125rem, -0.1081081081rem + 0.3378378378vw, 0.1875rem);
   letter-spacing: clamp(0.03125rem, -0.1638513514rem + 0.472972973vw, 0.25rem);
+  margin: 0;
 }
 
 .heading-21 {
@@ -85,10 +104,11 @@
 
 .font-roman {
   font-size: clamp(0.75rem, -1.1538461538rem + 8.4615384615vw, 6.25rem);
-  line-height: clamp(3.75rem, 3.3173076923rem + 1.9230769231vw, 5rem);
+  line-height: 0.7;
   margin: 0;
   position: relative;
-  left: -7px;
+  left: clamp(-0.125rem, 0.0264423077rem + -0.6730769231vw, -0.5625rem);
+  margin-top: clamp(0.3125rem, -0.4447115385rem + 3.3653846154vw, 2.5rem);
 }
 
 .word-spacing-5 {
@@ -175,12 +195,33 @@
   padding-right: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
 }
 
+.col,
+.columns,
+.gallery-item {
+  padding: 0 15px 30px;
+  padding-left: clamp(0.5rem, 0.3485576923rem + 0.6730769231vw, 0.9375rem) !important;
+  padding-right: clamp(0.5rem, 0.3485576923rem + 0.6730769231vw, 0.9375rem) !important;
+  padding-bottom: clamp(0.9375rem, 0.6129807692rem + 1.4423076923vw, 1.875rem) !important;
+}
+
 .mb-1 {
   margin-bottom: 0.5rem;
 }
 
 .m-0 {
   margin: 0;
+}
+
+.mb-1\/2 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: clamp(0.4375rem, -0.2764423077rem + 3.1730769231vw, 2.5rem) !important;
+}
+
+.bg-fill.not-cover {
+  background-size: auto !important;
 }
 
 .box-coffee-roman .item:first-child {
@@ -198,5 +239,14 @@
 }
 
 .icon-svg {
-  max-width: 279.8488px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.icon-roma-container {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: clamp(2.5rem, -0.9615384615rem + 15.3846153846vw, 12.5rem);
 }
