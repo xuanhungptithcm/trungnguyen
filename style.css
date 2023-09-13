@@ -184,7 +184,7 @@
   }
   a.chia-se span,
   a.mua-hang span {
-    font-family: "Smooch Sans", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
     letter-spacing: 3px;
   }
   a.mua-hang {
@@ -645,7 +645,7 @@
         font-size: 5px !important;
       }
       .popup-window h2 {
-        font-size: 11px !important;
+        font-size: 10px !important;
       }
       .ca-phe-thien .is-border {
         height: 50px;
