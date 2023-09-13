@@ -1,19 +1,30 @@
 @import 'fucntion.scss';
 
+<<<<<<< HEAD
 .flex {
     display: flex;
 }
 
+=======
+.flex{
+    display: flex;
+}
+>>>>>>> master
 .flex-column {
     display: flex;
     flex-direction: column;
 }
+<<<<<<< HEAD
 
 .flex-nowrap {
+=======
+.flex-nowrap{
+>>>>>>> master
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
 }
+<<<<<<< HEAD
 
 .space-between {
     justify-content: space-between;
@@ -24,12 +35,22 @@
 }
 
 .border-right-item .item:not(:last-child) {
+=======
+.space-between {
+    justify-content: space-between;
+}
+.flex-nowrap .item {
+    flex: 1 1 auto;
+}
+.border-right-item .item:not(:last-child){
+>>>>>>> master
     border-right: betterClamp(1, 3) dashed #dedede;
 }
 
 .border-right {
     border-right: betterClamp(1, 3) dashed #dedede;
 }
+<<<<<<< HEAD
 
 .border-bottom {
     border-bottom: betterClamp(1, 3) dashed #dedede;
@@ -67,6 +88,35 @@
     align-items: stretch;
 }
 
+=======
+.border-bottom {
+    border-bottom: betterClamp(1, 3) dashed #dedede;
+}
+.w-20{
+    width: 20%;
+}
+.w-100{
+    width: 100%;
+}
+.flex-1{
+    flex: 1 1 auto;
+}
+.flex-nowrap .item.flex-2 {
+    flex-grow: 2;
+}
+.flex-none{
+    flex: none!important
+}
+.align-flex-start{
+    align-items: flex-start;
+}
+.item-center{
+    align-items: center;
+}
+.item-stretch{
+    align-items: stretch;
+}
+>>>>>>> master
 .container-new {
     margin: 0 auto;
     max-width: 1400px;
@@ -75,6 +125,7 @@
     padding-left: betterClamp(10, 30);
     padding-right: betterClamp(10, 30);
 }
+<<<<<<< HEAD
 
 .col,
 .columns,
@@ -101,4 +152,11 @@
 }
 .bg-fill.not-cover{
     background-size: auto!important;
+=======
+.mb-1 {
+    margin-bottom: 0.5rem;
+}
+.m-0 {
+    margin: 0;
+>>>>>>> master
 }

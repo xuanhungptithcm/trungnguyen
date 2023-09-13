@@ -38,7 +38,10 @@
     line-height: betterClamp(12, 40, 360, 1400);
     word-spacing: betterClamp(0.5, 3, 660, 1400);
     letter-spacing: betterClamp(0.5, 4, 660, 1400);
+<<<<<<< HEAD
     margin: 0;
+=======
+>>>>>>> master
 }
 .heading-21{
     font-size: betterClamp(4, pt-to-px(21.5), 360, 1400);
@@ -53,11 +56,18 @@
 }
 .font-roman {
     font-size: betterClamp(12, 100, 360, 1400);
+<<<<<<< HEAD
     line-height: 0.7;
     margin: 0;
     position: relative;
     left: betterClamp(-2, -9, 360, 1400);
     margin-top: betterClamp(5, 40);
+=======
+    line-height: betterClamp(60, 80, 360, 1400);
+    margin: 0;
+    position: relative;
+    left: -7px;
+>>>>>>> master
 }
 .word-spacing-5{
     word-spacing:  betterClamp(1, 5, 360, 1400);
