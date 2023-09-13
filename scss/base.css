@@ -74,6 +74,7 @@
   padding-right: clamp(1rem, 0.5673076923rem + 1.9230769231vw, 2.25rem);
 }
 
+<<<<<<< HEAD
 .col,
 .columns,
 .gallery-item {
@@ -83,12 +84,15 @@
   padding-bottom: clamp(0.9375rem, 0.6129807692rem + 1.4423076923vw, 1.875rem) !important;
 }
 
+=======
+>>>>>>> master
 .mb-1 {
   margin-bottom: 0.5rem;
 }
 
 .m-0 {
   margin: 0;
+<<<<<<< HEAD
 }
 
 .mb-1\/2 {
@@ -101,6 +105,10 @@
 
 .bg-fill.not-cover {
   background-size: auto !important;
+<<<<<<< HEAD
+=======
+>>>>>>> master
+=======
 }
 
 .border-right-50 .item:not(:last-child) {
@@ -131,4 +139,5 @@
 
 .align-flex-end {
   align-items: flex-end;
+>>>>>>> c5218a497035e95987f5b1b21d182cc1bc334dbf
 }

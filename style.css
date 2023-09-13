@@ -326,11 +326,51 @@
   .hanh-trinh p {
     font-family: "times new roman", times, serif;
   }
+<<<<<<< HEAD
   .thong-tin p {
     margin-bottom: 0 !important;
   }
   p.mini {
     font-size: 11px;
+=======
+    .hanh-trinh h2 {
+      font-size: calc(18px + (40 - 18) * ((100vw - 360px) / (1400 - 360)));
+
+    }
+  .hanh-trinh .dia-chi {
+    font-size: calc(12px + (22 - 12) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .trung-nguyen-khoi-phat .thong-tin p {
+    margin-bottom: 0 !important;
+    color: #898885;
+  }
+  .trung-nguyen-khoi-phat .thong-tin p.mini {
+    font-size:  calc(8px + (11 - 8) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .trung-nguyen-khoi-phat p {
+    font-size:calc(6px + (16 - 6) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .trung-nguyen-khoi-phat .text-ly-do {
+    font-family: 'Smooch Sans', sans-serif;
+    margin-right:10px;
+     font-weight:500;
+    font-size: calc(50px + (135 - 50) * ((100vw - 360px) / (1400 - 360)));
+    line-height: calc(10px + (20 - 10) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .trung-nguyen-khoi-phat .text-trai-nghiem-loi-song-tinh-thuc {
+    display: inline-block;
+    font-family: 'Smooch Sans', sans-serif; 
+    font-weight:bold;
+    font-size: calc(15px + (35 - 15) * ((100vw - 360px) / (1400 - 360)));
+    line-height: calc(15px + (35 - 15) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .trung-nguyen-khoi-phat .line-driver {
+    background-color:rgb(167, 169, 172);
+    width: calc(140px + (300 - 140) * ((100vw - 360px) / (1400 - 360)));
+    height: 2px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+>>>>>>> master
   }
   .thanh-pho-ca-phe .is-border {
     height: 460px;

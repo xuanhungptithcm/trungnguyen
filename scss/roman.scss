@@ -18,6 +18,7 @@
 }
 
 .icon-svg {
+<<<<<<< HEAD
     width: 100%;
     max-width: 200px;
 }
@@ -28,6 +29,11 @@
     right: 0;
     bottom: 0;
     width: betterClamp(40, 200);
+<<<<<<< HEAD
+=======
+    max-width: 279.8488px;
+>>>>>>> master
+=======
 }
 
 .flex-nowrap .item img {
@@ -196,4 +202,5 @@ a.mua-hang{
     font-size: betterClamp(10, pt-to-px(35));
     letter-spacing: betterClamp(0, 1);
 
+>>>>>>> c5218a497035e95987f5b1b21d182cc1bc334dbf
 }
