@@ -210,8 +210,8 @@
   max-width: 1400px;
   width: 100%;
   padding: 0;
-  padding-left: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
-  padding-right: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
+  padding-left: clamp(1rem, 0.5673076923rem + 1.9230769231vw, 2.25rem);
+  padding-right: clamp(1rem, 0.5673076923rem + 1.9230769231vw, 2.25rem);
 }
 
 <<<<<<< HEAD
@@ -247,8 +247,41 @@
   background-size: auto !important;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+.border-right-50 .item:not(:last-child) {
+  position: relative;
+}
+.border-right-50 .item:not(:last-child):after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  border-right: clamp(0.0625rem, 0.0192307692rem + 0.1923076923vw, 0.1875rem) dashed #dedede;
+  height: 50%;
+  transform: translate(0, -50%);
+}
+
+.pb-42-to-10 {
+  padding-bottom: clamp(1.5rem, 1.1105769231rem + 1.7307692308vw, 2.625rem);
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+>>>>>>> c5218a497035e95987f5b1b21d182cc1bc334dbf
 .box-coffee-roman .item:first-child {
   padding: 0 1.5rem;
   padding-left: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
@@ -275,7 +308,170 @@
   right: 0;
   bottom: 0;
   width: clamp(2.5rem, -0.9615384615rem + 15.3846153846vw, 12.5rem);
+<<<<<<< HEAD
 =======
   max-width: 279.8488px;
 >>>>>>> master
+=======
+}
+
+.flex-nowrap .item img {
+  width: clamp(6.25rem, 3.0048076923rem + 14.4230769231vw, 15.625rem);
+}
+
+.title-roman {
+  font-size: clamp(0.75rem, 0.1937645688rem + 2.4721574722vw, 2.3569023569rem);
+  line-height: clamp(0.75rem, 0.1937645688rem + 2.4721574722vw, 2.3569023569rem);
+  word-spacing: clamp(0.03125rem, -0.1081081081rem + 0.3378378378vw, 0.1875rem);
+  letter-spacing: clamp(0.03125rem, -0.1638513514rem + 0.472972973vw, 0.25rem);
+  margin-bottom: clamp(0.625rem, 0.4086538462rem + 0.9615384615vw, 1.25rem);
+}
+
+.sub-title-roman {
+  font-size: clamp(0.5rem, 0.1223776224rem + 1.6783216783vw, 1.5909090909rem);
+  line-height: clamp(0.5rem, 0.1223776224rem + 1.6783216783vw, 1.5909090909rem);
+  word-spacing: clamp(0.0625rem, 0.0013297872rem + 0.2127659574vw, 0.1875rem);
+  letter-spacing: clamp(0.0625rem, -0.0292553191rem + 0.3191489362vw, 0.25rem);
+  margin: 0;
+}
+
+.divider {
+  height: clamp(0.03125rem, 0.0114729021rem + 0.0878982129vw, 0.0883838384rem);
+  display: block;
+  margin: clamp(1rem, 0.4807692308rem + 2.3076923077vw, 2.5rem) 0;
+  width: 60%;
+}
+
+.box-coffee-roman-cam-hung .item {
+  padding: 0 1.5rem;
+  padding-left: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  padding-right: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  margin: 1.5rem 0;
+  margin-top: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+  margin-bottom: clamp(0.5rem, 0.1538461538rem + 1.5384615385vw, 1.5rem);
+}
+
+.image-cafe-van-minh-1 {
+  margin-right: auto;
+}
+
+.image-cafe-van-minh-2 {
+  width: 80%;
+  margin-left: auto;
+}
+
+.image-cafe-van-minh-1 img {
+  max-width: 100%;
+}
+
+.flex-basic-30 {
+  flex-basis: 30%;
+}
+
+.flex-basic-70 {
+  flex-basis: 70%;
+}
+
+.column-gap-30 {
+  column-gap: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
+}
+
+.color-content-roman {
+  column-gap: clamp(1rem, 0.6538461538rem + 1.5384615385vw, 2rem);
+}
+.color-content-roman > p {
+  font-size: clamp(0.5rem, 0.2243589744rem + 1.2250712251vw, 1.2962962963rem);
+  line-height: clamp(0.5rem, 0.1427738928rem + 1.5876715877vw, 1.531986532rem);
+  flex: 1;
+  color: #6D6E71;
+  margin: 0;
+}
+.color-content-roman > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: clamp(5rem, 3.0528846154rem + 8.6538461538vw, 10.625rem);
+}
+.color-content-roman > div a span {
+  font-size: clamp(0.375rem, 0.125rem + 1vw, 1rem);
+  letter-spacing: clamp(0.0625rem, 0.0408653846rem + 0.0961538462vw, 0.125rem);
+  line-height: 1;
+}
+.color-content-roman > div a {
+  min-height: clamp(1.0606060606rem, 0.4079254079rem + 2.9008029008vw, 2.9461279461rem);
+  padding-left: clamp(0.625rem, 0.4951923077rem + 0.5769230769vw, 1rem);
+  padding-right: clamp(0.625rem, 0.4951923077rem + 0.5769230769vw, 1rem);
+}
+.color-content-roman > div a i {
+  width: clamp(0.375rem, 0.1802884615rem + 0.8653846154vw, 0.9375rem);
+  height: clamp(0.375rem, 0.1802884615rem + 0.8653846154vw, 0.9375rem);
+  font-size: clamp(0.375rem, 0.1802884615rem + 0.8653846154vw, 0.9375rem);
+}
+
+.divider-content-roman {
+  height: clamp(0.03125rem, 0.0114729021rem + 0.0878982129vw, 0.0883838384rem);
+  display: block;
+  margin: clamp(0.875rem, 0.5721153846rem + 1.3461538462vw, 1.75rem) 0;
+  width: 60%;
+}
+
+.pb-52-to-20 {
+  padding-bottom: clamp(1.25rem, 0.3413461538rem + 4.0384615385vw, 3.875rem);
+}
+
+.button-popup-group {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: clamp(0.625rem, 0.1923076923rem + 1.9230769231vw, 1.875rem);
+}
+.button-popup-group .button {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+a.chia-se {
+  width: clamp(7.5rem, 6.4182692308rem + 4.8076923077vw, 10.625rem);
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: clamp(0.8838383838rem, 0.4759129759rem + 1.813001813vw, 2.0622895623rem);
+  padding-left: clamp(0.625rem, 0.4951923077rem + 0.5769230769vw, 1rem);
+  padding-right: clamp(0.625rem, 0.4951923077rem + 0.5769230769vw, 1rem);
+  align-items: center;
+  justify-content: center;
+}
+a.chia-se span {
+  font-size: clamp(0.25rem, -0.0096153846rem + 1.1538461538vw, 1rem);
+  letter-spacing: clamp(0rem, -0.0216346154rem + 0.0961538462vw, 0.0625rem);
+  line-height: clamp(0.0625rem, 0.0560096154rem + 0.0288461538vw, 0.08125rem);
+}
+
+a.mua-hang {
+  width: clamp(7.5rem, 6.4182692308rem + 4.8076923077vw, 10.625rem);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: clamp(0.8838383838rem, 0.4759129759rem + 1.813001813vw, 2.0622895623rem);
+  padding-left: clamp(0.375rem, 0.1586538462rem + 0.9615384615vw, 1rem);
+  padding-right: clamp(0.375rem, 0.1586538462rem + 0.9615384615vw, 1rem);
+}
+a.mua-hang span {
+  font-size: clamp(0.25rem, -0.0096153846rem + 1.1538461538vw, 1rem);
+  letter-spacing: clamp(0rem, -0.0216346154rem + 0.0961538462vw, 0.0625rem);
+  line-height: 1;
+}
+a.mua-hang i {
+  width: clamp(0.25rem, 0.0120192308rem + 1.0576923077vw, 0.9375rem);
+  height: clamp(0.25rem, 0.0120192308rem + 1.0576923077vw, 0.9375rem);
+  font-size: clamp(0.25rem, 0.0120192308rem + 1.0576923077vw, 0.9375rem);
+}
+
+.mfp-wrap {
+  position: fixed !important;
+}
+
+.popup-title {
+  font-size: clamp(0.625rem, 0.12747669rem + 2.2112147112vw, 2.0622895623rem);
+  letter-spacing: clamp(0rem, -0.0216346154rem + 0.0961538462vw, 0.0625rem);
+>>>>>>> c5218a497035e95987f5b1b21d182cc1bc334dbf
 }

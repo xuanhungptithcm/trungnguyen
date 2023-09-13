@@ -6,7 +6,8 @@
         padding-left: betterClamp(8, 24);
         padding-right: betterClamp(8, 24);
     }
-    .item:not(:first-of-type){
+
+    .item:not(:first-of-type) {
         padding: 0 1.5rem;
         padding-left: betterClamp(8, 24);
         padding-right: betterClamp(8, 24);
@@ -15,18 +16,191 @@
         margin-bottom: betterClamp(8, 24);
     }
 }
+
 .icon-svg {
 <<<<<<< HEAD
     width: 100%;
-    max-width:200px;
+    max-width: 200px;
 }
+
 .icon-roma-container {
     display: flex;
     position: absolute;
     right: 0;
     bottom: 0;
     width: betterClamp(40, 200);
+<<<<<<< HEAD
 =======
     max-width: 279.8488px;
 >>>>>>> master
+=======
+}
+
+.flex-nowrap .item img {
+    width: betterClamp(100, 250);
+}
+
+.title-roman {
+    font-size: betterClamp(12, pt-to-px(40), 360, 1400);
+    line-height: betterClamp(12, pt-to-px(40), 360, 1400);
+    word-spacing: betterClamp(0.5, 3, 660, 1400);
+    letter-spacing: betterClamp(0.5, 4, 660, 1400);
+    margin-bottom: betterClamp(10, 20);
+}
+
+.sub-title-roman {
+    font-size: betterClamp(8, pt-to-px(27), 360, 1400);
+    line-height: betterClamp(8, pt-to-px(27), 360, 1400);
+    word-spacing: betterClamp(1, 3, 460, 1400);
+    letter-spacing: betterClamp(1, 4, 460, 1400);
+    margin: 0;
+}
+
+.divider {
+    height: betterClamp(0.5, pt-to-px(1.5));
+    display: block;
+    margin: betterClamp(16, 40) 0;
+    width: 60%;
+}
+
+.box-coffee-roman-cam-hung {
+    .item {
+        padding: 0 1.5rem;
+        padding-left: betterClamp(8, 24);
+        padding-right: betterClamp(8, 24);
+        margin: 1.5rem 0;
+        margin-top: betterClamp(8, 24);
+        margin-bottom: betterClamp(8, 24);
+    }
+}
+
+.image-cafe-van-minh-1 {
+    margin-right: auto;
+}
+
+.image-cafe-van-minh-2 {
+    width: 80%;
+    margin-left: auto;
+}
+
+.image-cafe-van-minh-1 img {
+    max-width: 100%;
+}
+
+.flex-basic-30 {
+    flex-basis: 30%;
+}
+
+.flex-basic-70 {
+    flex-basis: 70%;
+}
+
+.column-gap-30 {
+    column-gap: betterClamp(10, 30);
+}
+
+.color-content-roman {
+    column-gap: betterClamp(16, 32);
+
+    >p {
+        font-size: betterClamp(8, pt-to-px(22), 360, 1400);
+        line-height: betterClamp(8, pt-to-px(26), 360, 1400);
+        flex: 1;
+        color: #6D6E71;
+        margin: 0;
+    }
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        width: betterClamp(80, 170);
+
+        a span {
+            font-size: betterClamp(6, 16, 400);
+            letter-spacing: betterClamp(1, 2);
+            line-height: 1;
+        }
+
+        a {
+            min-height: betterClamp(pt-to-px(18), pt-to-px(50));
+            padding-left: betterClamp(10, 16);
+            padding-right: betterClamp(10, 16);
+
+            i {
+                width: betterClamp(6, 15);
+                height: betterClamp(6, 15);
+                font-size: betterClamp(6, 15);
+            }
+        }
+    }
+}
+
+
+.divider-content-roman {
+    height: betterClamp(0.5, pt-to-px(1.5));
+    display: block;
+    margin: betterClamp(14, 28) 0;
+    width: 60%;
+}
+
+.pb-52-to-20 {
+    padding-bottom: betterClamp(20, 62);
+}
+
+//for popup
+.button-popup-group{
+    .button {
+        margin-bottom: 0;
+        margin-right: 0;
+
+    }
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: betterClamp(10, 30);
+}
+a.chia-se{
+    width: betterClamp(120, 170);
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: betterClamp(pt-to-px(15), pt-to-px(35));
+    padding-left: betterClamp(10, 16);
+    padding-right: betterClamp(10, 16);
+    align-items: center;
+    justify-content: center;
+    span {
+        font-size: betterClamp(4, 16);
+        letter-spacing: betterClamp(0, 1);
+        line-height: betterClamp(1, 1.3);
+    }
+}
+a.mua-hang{
+    width: betterClamp(120, 170);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    min-height: betterClamp(pt-to-px(15), pt-to-px(35));
+    padding-left: betterClamp(6, 16);
+    padding-right: betterClamp(6, 16);
+    span {
+        font-size: betterClamp(4, 16);
+        letter-spacing: betterClamp(0, 1);
+        line-height: 1;
+    }
+    i {
+        width: betterClamp(4, 15);
+        height: betterClamp(4, 15);
+        font-size: betterClamp(4, 15);
+    }
+}
+.mfp-wrap{
+    position: fixed!important;
+}
+
+.popup-title {
+    font-size: betterClamp(10, pt-to-px(35));
+    letter-spacing: betterClamp(0, 1);
+
+>>>>>>> c5218a497035e95987f5b1b21d182cc1bc334dbf
 }
