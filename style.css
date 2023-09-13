@@ -560,7 +560,41 @@
     height: 1px;
     left: 41%;
     width: 770px;
-  } /* Custom CSS Tablet */
+  }
+  .tinh-thuc-la-co-the .title-hanh-trinh-tinh-thuc {
+    text-align: right;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:  calc(16px + (40 - 16) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .tinh-thuc-la-co-the .des-hanh-trinh-tinh-thuc {
+    text-align: right;
+     margin-bottom:0;
+     font-family: Times;
+     font-size:  calc(9px + (20 - 9) * ((100vw - 360px) / (1400 - 360)));
+  }
+  .tinh-thuc-la-co-the .noi-dung {
+    text-align: justify;
+    font-size:  calc(5px + (14 - 5) * ((100vw - 360px) / (1400 - 360)));
+}
+.section-hinh-anh-hoat-dong .text-hinh-anh {
+  font-size:  calc(20px + (70 - 20) * ((100vw - 360px) / (1400 - 360)));
+  font-family: 'Smooch Sans', sans-serif;
+}
+.section-hinh-anh-hoat-dong .text-hoat-dong {
+  font-family: 'Smooch Sans', sans-serif; 
+  font-weight:400;
+  font-size:  calc(10px + (40 - 10) * ((100vw - 360px) / (1400 - 360)));
+}
+.section-hinh-anh-hoat-dong .line-title h2::after {
+  left: calc(2em + (9 - 2) * ((100vw - 360px) / (1400 - 360)));
+  width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
+}
+  /* .tinh-thuc-la-co-the .ve-ly-do {
+    text-align: right;
+    font-family: Times; 
+    margin-bottom:0;
+  } */
+  /* Custom CSS Tablet */
   @media (max-width: 849px) {
     .item img {
       width: 170px;
