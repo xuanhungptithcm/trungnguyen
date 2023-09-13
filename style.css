@@ -332,9 +332,10 @@ a.mua-hang i {
 p.mini {
   font-size: 11px;
 }
-.hanh-trinh h2 {
-  font-size: calc(18px + (40 - 18) * ((100vw - 360px) / (1400 - 360)));
-}
+  .hanh-trinh h2 {
+    font-size: calc(18px + (40 - 18) * ((100vw - 360px) / (1400 - 360)));
+
+  }
 .hanh-trinh .dia-chi {
   font-size: calc(12px + (22 - 12) * ((100vw - 360px) / (1400 - 360)));
 }
@@ -343,31 +344,31 @@ p.mini {
   color: #898885;
 }
 .trung-nguyen-khoi-phat .thong-tin p.mini {
-  font-size: calc(8px + (11 - 8) * ((100vw - 360px) / (1400 - 360)));
+  font-size:  calc(8px + (11 - 8) * ((100vw - 360px) / (1400 - 360)));
 }
 .trung-nguyen-khoi-phat p {
-  font-size: calc(6px + (16 - 6) * ((100vw - 360px) / (1400 - 360)));
+  font-size:calc(6px + (16 - 6) * ((100vw - 360px) / (1400 - 360)));
 }
 .trung-nguyen-khoi-phat .text-ly-do {
-  font-family: "Smooch Sans", sans-serif;
-  margin-right: 10px;
-  font-weight: 500;
+  font-family: 'Smooch Sans', sans-serif;
+  margin-right:10px;
+   font-weight:500;
   font-size: calc(50px + (135 - 50) * ((100vw - 360px) / (1400 - 360)));
   line-height: calc(10px + (20 - 10) * ((100vw - 360px) / (1400 - 360)));
 }
 .trung-nguyen-khoi-phat .text-trai-nghiem-loi-song-tinh-thuc {
   display: inline-block;
-  font-family: "Smooch Sans", sans-serif;
-  font-weight: bold;
+  font-family: 'Smooch Sans', sans-serif; 
+  font-weight:bold;
   font-size: calc(15px + (35 - 15) * ((100vw - 360px) / (1400 - 360)));
   line-height: calc(15px + (35 - 15) * ((100vw - 360px) / (1400 - 360)));
 }
 .trung-nguyen-khoi-phat .line-driver {
-  background-color: rgb(167, 169, 172);
+  background-color:rgb(167, 169, 172);
   width: calc(140px + (300 - 140) * ((100vw - 360px) / (1400 - 360)));
   height: 2px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 .thanh-pho-ca-phe .is-border {
   height: 460px;
@@ -557,7 +558,41 @@ a.button.mua-hang-mobile::after {
   height: 1px;
   left: 41%;
   width: 770px;
-} /* Custom CSS Tablet */
+}
+.tinh-thuc-la-co-the .title-hanh-trinh-tinh-thuc {
+  text-align: right;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size:  calc(16px + (40 - 16) * ((100vw - 360px) / (1400 - 360)));
+}
+.tinh-thuc-la-co-the .des-hanh-trinh-tinh-thuc {
+  text-align: right;
+   margin-bottom:0;
+   font-family: Times;
+   font-size:  calc(9px + (20 - 9) * ((100vw - 360px) / (1400 - 360)));
+}
+.tinh-thuc-la-co-the .noi-dung {
+  text-align: justify;
+  font-size:  calc(5px + (14 - 5) * ((100vw - 360px) / (1400 - 360)));
+}
+.section-hinh-anh-hoat-dong .text-hinh-anh {
+font-size:  calc(20px + (70 - 20) * ((100vw - 360px) / (1400 - 360)));
+font-family: 'Smooch Sans', sans-serif;
+}
+.section-hinh-anh-hoat-dong .text-hoat-dong {
+font-family: 'Smooch Sans', sans-serif; 
+font-weight:400;
+font-size:  calc(10px + (40 - 10) * ((100vw - 360px) / (1400 - 360)));
+}
+.section-hinh-anh-hoat-dong .line-title h2::after {
+left: calc(2em + (9 - 2) * ((100vw - 360px) / (1400 - 360)));
+width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
+}
+/* .tinh-thuc-la-co-the .ve-ly-do {
+  text-align: right;
+  font-family: Times; 
+  margin-bottom:0;
+} */
+/* Custom CSS Tablet */
 @media (max-width: 849px) {
   .item img {
     width: 170px;
@@ -770,7 +805,6 @@ a.button.mua-hang-mobile::after {
   content: "Popular";
 }
 
-//wp-block-library-inline-css
 :root {
   --wp-admin-theme-color: #007cba;
   --wp-admin-theme-color--rgb: 0, 124, 186;
@@ -1002,7 +1036,7 @@ html :where(.is-position-sticky) {
   color: #fff;
   text-decoration: none;
 }
-
+  
 img.wp-smiley,
 img.emoji {
   display: inline !important;
@@ -1014,7 +1048,4 @@ img.emoji {
   vertical-align: -0.1em !important;
   background: none !important;
   padding: 0 !important;
-}
-.max-w-500{
-  max-width: 500px;
 }
