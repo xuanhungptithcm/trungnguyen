@@ -332,7 +332,7 @@
   }
   p.mini {
     font-size: 11px;
-=======
+  }
     .hanh-trinh h2 {
       font-size: calc(18px + (40 - 18) * ((100vw - 360px) / (1400 - 360)));
 
