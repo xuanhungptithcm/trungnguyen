@@ -18,7 +18,6 @@
 }
 
 .icon-svg {
-<<<<<<< HEAD
     width: 100%;
     max-width: 200px;
 }
@@ -29,11 +28,6 @@
     right: 0;
     bottom: 0;
     width: betterClamp(40, 200);
-<<<<<<< HEAD
-=======
-    max-width: 279.8488px;
->>>>>>> master
-=======
 }
 
 .flex-nowrap .item img {
@@ -149,17 +143,19 @@
 }
 
 //for popup
-.button-popup-group{
+.button-popup-group {
     .button {
         margin-bottom: 0;
         margin-right: 0;
 
     }
+
     display: flex;
     flex-wrap: nowrap;
     column-gap: betterClamp(10, 30);
 }
-a.chia-se{
+
+a.chia-se {
     width: betterClamp(120, 170);
     display: flex;
     flex-wrap: nowrap;
@@ -168,13 +164,15 @@ a.chia-se{
     padding-right: betterClamp(10, 16);
     align-items: center;
     justify-content: center;
+
     span {
         font-size: betterClamp(4, 16);
         letter-spacing: betterClamp(0, 1);
         line-height: betterClamp(1, 1.3);
     }
 }
-a.mua-hang{
+
+a.mua-hang {
     width: betterClamp(120, 170);
     display: flex;
     flex-wrap: nowrap;
@@ -183,24 +181,25 @@ a.mua-hang{
     min-height: betterClamp(pt-to-px(15), pt-to-px(35));
     padding-left: betterClamp(6, 16);
     padding-right: betterClamp(6, 16);
+
     span {
         font-size: betterClamp(4, 16);
         letter-spacing: betterClamp(0, 1);
         line-height: 1;
     }
+
     i {
         width: betterClamp(4, 15);
         height: betterClamp(4, 15);
         font-size: betterClamp(4, 15);
     }
 }
-.mfp-wrap{
-    position: fixed!important;
+
+.mfp-wrap {
+    position: fixed !important;
 }
 
 .popup-title {
     font-size: betterClamp(10, pt-to-px(35));
     letter-spacing: betterClamp(0, 1);
-
->>>>>>> c5218a497035e95987f5b1b21d182cc1bc334dbf
 }
