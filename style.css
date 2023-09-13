@@ -450,9 +450,42 @@ body {
 .list-mo-ta li {
   margin-bottom: 0;
 }
+
+
+.popup-window p + p {
+  margin-top: 0;
+} 
+.popup-window p:frist-child {
+  margin-bottom: 0;
+} 
+.popup-window p {
+  margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
 .mini-window {
   border: 3px solid #000;
   border-radius: 20px;
+  padding: 50px;
+}
+.noi-dung-classic p{
+  font-size:0.9em;
+}
+ul.classic li, ul.classic {
+  font-size: 0.9em !important;
+  margin-bottom:0;
+}
+.popup-window .img-inner{
+  overflow: unset !important;
+}
+.mini-widow .col, .popup-window .col {
+  padding-bottom:0 !important;
+}
+
+.divider-popup {
+  height: 1px;
+  width:60%;
+  margin: 0.3em 0;
+  background-color: #231F20;
 }
 .icon-play:before {
   content: "";
@@ -594,9 +627,11 @@ width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
 } */
 /* Custom CSS Tablet */
 @media (max-width: 849px) {
+  
   .item img {
     width: 170px;
   }
+ 
   .row-1 .item,
   .row-2 .item,
   .row-3 .item,
@@ -632,13 +667,15 @@ width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
   .box-button .mua-hang-mobile {
     background-color: #333333;
   }
-  .popup-window p,
-  .popup-window ul li {
-    font-size: 14px !important;
-  }
+  .popup-window p, .popup-window ul li {
+    font-size: 0.8em !important;
+}
+.noi-dung-classic p:frist-child {
+  font-size:0.8em !important;
+}
   .popup-window h2 {
-    font-size: 18px !important;
-  }
+    font-size: 1.3em !important;
+}
   .row-4 .item-frist img {
     width: 200px;
   }
@@ -676,13 +713,24 @@ width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
     right: -4%;
   }
 } /* Custom CSS Mobile */
-@media (max-width: 549px) {
-  @media (max-width: 768px) {
-    .popup-window {
-      max-width: 90%;
-    }
-  }
+
   @media (min-width: 320px) and (max-width: 480px) {
+    .no-viewport-class {
+        /* Không áp dụng các thiết lập viewport */
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        font-size: 16px;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+  }
+  .popup-window p, .popup-window ul, li {
+    font-size: 0.3em !important;
+  }
+  .popup-window h2 {
+    font-size: 0.5em !important;
+}
     .line-title h2::after {
       left: 40%;
       width: 200px;
@@ -711,13 +759,6 @@ width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
       height: 165px;
       top: 43%;
       right: -8%;
-    }
-    .popup-window p,
-    .popup-window ul li {
-      font-size: 5px !important;
-    }
-    .popup-window h2 {
-      font-size: 10px !important;
     }
     .ca-phe-thien .is-border {
       height: 50px;
