@@ -809,9 +809,9 @@ width: calc(160px + (200 - 170) * ((100vw - 360px) / (1400 - 360)));
   .box-button .mua-hang-mobile {
     background-color: #333333;
   }
-  .list-mo-ta li {
+  /* .list-mo-ta li {
     font-size: 5px;
-  }
+  } */
   .row-1 .item,
   .row-2 .item,
   .row-3 .item,
